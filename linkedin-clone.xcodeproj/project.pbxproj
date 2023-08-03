@@ -15,8 +15,12 @@
 		550B3BA42A78CB3300E6B171 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B3BA32A78CB3300E6B171 /* PostModel.swift */; };
 		550B3BA62A78CB3D00E6B171 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B3BA52A78CB3D00E6B171 /* NetworkModel.swift */; };
 		550B3BA82A78CC2B00E6B171 /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B3BA72A78CC2B00E6B171 /* InvitationView.swift */; };
+		5589B70B2A7B55AD00693D6E /* ProfileAndPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5589B70A2A7B55AD00693D6E /* ProfileAndPostView.swift */; };
+		5589B70D2A7B579A00693D6E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5589B70C2A7B579A00693D6E /* FeedView.swift */; };
 		559426DE2A7A1BE700369CB2 /* MyNetworkScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559426DD2A7A1BE700369CB2 /* MyNetworkScreenView.swift */; };
 		559426E02A7A20A200369CB2 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559426DF2A7A20A200369CB2 /* PostView.swift */; };
+		55EF078D2A7BFEF800A2AF6D /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EF078C2A7BFEF800A2AF6D /* HomeScreenView.swift */; };
+		55EF078F2A7C003500A2AF6D /* TabSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EF078E2A7C003500A2AF6D /* TabSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +33,12 @@
 		550B3BA32A78CB3300E6B171 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		550B3BA52A78CB3D00E6B171 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		550B3BA72A78CC2B00E6B171 /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		5589B70A2A7B55AD00693D6E /* ProfileAndPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndPostView.swift; sourceTree = "<group>"; };
+		5589B70C2A7B579A00693D6E /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		559426DD2A7A1BE700369CB2 /* MyNetworkScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreenView.swift; sourceTree = "<group>"; };
 		559426DF2A7A20A200369CB2 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		55EF078C2A7BFEF800A2AF6D /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		55EF078E2A7C003500A2AF6D /* TabSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,10 @@
 				550B3BA72A78CC2B00E6B171 /* InvitationView.swift */,
 				559426DD2A7A1BE700369CB2 /* MyNetworkScreenView.swift */,
 				559426DF2A7A20A200369CB2 /* PostView.swift */,
+				5589B70A2A7B55AD00693D6E /* ProfileAndPostView.swift */,
+				5589B70C2A7B579A00693D6E /* FeedView.swift */,
+				55EF078C2A7BFEF800A2AF6D /* HomeScreenView.swift */,
+				55EF078E2A7C003500A2AF6D /* TabSectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,13 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5589B70D2A7B579A00693D6E /* FeedView.swift in Sources */,
 				550B3BA12A78C45000E6B171 /* SeachBarView.swift in Sources */,
+				5589B70B2A7B55AD00693D6E /* ProfileAndPostView.swift in Sources */,
 				550B3BA42A78CB3300E6B171 /* PostModel.swift in Sources */,
 				559426E02A7A20A200369CB2 /* PostView.swift in Sources */,
 				550B3B862A78BE8100E6B171 /* ContentView.swift in Sources */,
 				550B3BA62A78CB3D00E6B171 /* NetworkModel.swift in Sources */,
+				55EF078D2A7BFEF800A2AF6D /* HomeScreenView.swift in Sources */,
 				559426DE2A7A1BE700369CB2 /* MyNetworkScreenView.swift in Sources */,
 				550B3B842A78BE8100E6B171 /* linkedin_cloneApp.swift in Sources */,
+				55EF078F2A7C003500A2AF6D /* TabSectionView.swift in Sources */,
 				550B3BA82A78CC2B00E6B171 /* InvitationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -29,7 +29,9 @@ var networkData: [NetworkModel] = [
 
 struct MyNetworkScreenView: View {
     var body: some View {
+       VStack {
           SeachBarView()
+          
           HStack{
              Text("Manage Network")
                 .font(.system(size: 18))
@@ -38,24 +40,25 @@ struct MyNetworkScreenView: View {
           }
           .foregroundStyle(.black)
           .padding(.horizontal)
-       Rectangle()
-          .fill(.gray.opacity(0.2))
-          .frame(width: .infinity, height: 5)
-          .ignoresSafeArea(.all)
-       HStack{
-          Text("Invitations")
-             .font(.system(size: 18))
-          Spacer()
-          Image(systemName: "chevron.right")
-       }
-       .foregroundStyle(.blue)
-       .padding()
-       Divider()
-       ScrollView{
-          ForEach(networkData, id: \.id) { network in
-             InvitationView(invitation: network)
-             if network.id != 15 {
-                Divider()
+          Rectangle()
+             .fill(.gray.opacity(0.2))
+             .frame(width: .infinity, height: 5)
+             .ignoresSafeArea(.all)
+          HStack{
+             Text("Invitations")
+                .font(.system(size: 18))
+             Spacer()
+             Image(systemName: "chevron.right")
+          }
+          .foregroundStyle(.blue)
+          .padding()
+          Divider()
+          ScrollView{
+             ForEach(networkData, id: \.id) { network in
+                InvitationView(invitation: network)
+                if network.id != 15 {
+                   Divider()
+                }
              }
           }
        }

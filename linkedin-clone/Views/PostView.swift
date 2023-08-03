@@ -15,7 +15,7 @@ struct SocialView {
 
 var socialView: Array<SocialView> = [
    .init(ids: 1, image: "hand.thumbsup", title: "Like"),
-   .init(ids: 2, image: "hand.bubble", title: "Comment"),
+   .init(ids: 2, image: "ellipses.bubble.fill", title: "Comment"),
    .init(ids: 3, image: "arrow.turn.up.right", title: "Share"),
    .init(ids: 4, image: "paperplane.fill", title: "Send")
 ]
@@ -62,9 +62,6 @@ struct PostView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: .infinity, height: .infinity, alignment: .center)
-             Divider()
-                .padding(.bottom)
-             
           }
           
        }
